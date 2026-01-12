@@ -1,0 +1,216 @@
+calibration_params:
+  analysis_period:
+  - '2018-01-01'
+  - '2024-08-01'
+  annual_drs:
+    2018: 0.04370056450116898
+    2019: 0.05948206711312044
+    2020: 0.05612097800571561
+    2021: 0.04052443466994591
+    2022: 0.07823005900029882
+    2023: 0.04976042653970924
+    2024: 0.04856631144667195
+  central_tendency:
+    PIT: 0.05273895123991376
+    TTC: 0.05504190055045175
+  excluded_quarters:
+  - - 2018
+    - 1
+  - - 2018
+    - 2
+  - - 2024
+    - 3
+  pit_quarters:
+  - - 2023
+    - 3
+  - - 2023
+    - 4
+  - - 2024
+    - 1
+  - - 2024
+    - 2
+  unripe_period_start:
+  - 2025
+  - 3
+data_paths:
+  case_youngs:
+    processed_data: ../data/used_data/generated_data/youngs_df.parquet
+  directories:
+    input_folder: ../data/used_data/
+    output_folder: ../data/used_data/generated_data/
+  model_base:
+    excel: "../results/\u0411\u0430\u0437\u043E\u0432\u0430\u044F \u043C\u043E\u0434\
+      \u0435\u043B\u044C.xlsx"
+    predictions: ../data/used_data/generated_data/base_predictions.parquet
+  model_integral:
+    predictions:
+      calibrated: ../data/used_data/generated_data/integral_model_predictions_calibrated.parquet
+      raw: ../data/used_data/generated_data/integral_model_predictions.parquet
+  module_gov:
+    influence: ../data/used_data/generated_data/gov_influence.parquet
+    mapping_original: ../data/used_data/mappings/gov_mapping.yaml
+    processed_data: ../data/used_data/generated_data/gov_df.parquet
+  module_group:
+    influence: ../data/used_data/generated_data/group_influence.parquet
+    processed_data: ../data/used_data/generated_data/group_df.parquet
+  module_qualitative:
+    excel: "../results/\u041A\u0430\u0447\u0435\u0441\u0442\u0432\u0435\u043D\u043D\
+      \u0430\u044F \u043C\u043E\u0434\u0435\u043B\u044C \u0421+ 2025.xlsx"
+    mapping_original: ../data/used_data/mappings/qualitative_mapping_original.yaml
+    predictions: ../data/used_data/generated_data/qualitative_predictions.parquet
+    processed_data: ../data/used_data/generated_data/qualitative_df.parquet
+    woe_category_map: ../data/used_data/generated_data/qualitative_woe_category_map.parquet
+  module_quantitative:
+    business_meaning: ../data/used_data/mappings/quantitative_features_business_meaning.yaml
+    excel: "../results/\u041A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u0435\
+      \u043D\u043D\u0430\u044F \u043C\u043E\u0434\u0435\u043B\u044C \u0421+ 2025.xlsx"
+    predictions: ../data/used_data/generated_data/quantitative_predictions.parquet
+    processed_data: ../data/used_data/generated_data/quantitative_df.parquet
+    woe_category_map: ../data/used_data/generated_data/quantitative_binning.parquet
+  module_warnings:
+    final: ../data/used_data/generated_data/warning_signals_final.parquet
+    processed_data: ../data/used_data/generated_data/warning_signals_processed.parquet
+    raw_data: ../data/used_data/warnings.xlsx
+  other:
+    clean_data: ../data/used_data/generated_data/clean_data.parquet
+    gpd_data: ../data/used_data/gdp_preprocessed.xlsx
+    results_yaml: ../results/RESULTS.yaml
+    this_config: ../CONFIGS.yaml
+  portfolio:
+    healthy: ../data/used_data/generated_data/healthy_portfolio.csv
+    raw: ../data/used_data/portfolio.pickle
+  ratings:
+    master_scale: ../data/used_data/master_scale.xlsx
+    preprocessed_compact: ../data/used_data/generated_data/ratings_preprocessed_compact.csv
+    preprocessed_full: ../data/used_data/generated_data/ratings_preprocessed_full.csv
+    raw: ../data/used_data/ratings.xlsx
+    valid_dates: ../data/used_data/generated_data/valid_dates.parquet
+    weights: ../data/used_data/generated_data/rating_weights.parquet
+  risk:
+    defaults_preprocessed: ../data/used_data/generated_data/default_df.csv
+    defaults_raw: ../data/used_data/defaults.csv
+    dpd_data: ../data/used_data/generated_data/dpd_data.parquet
+features:
+  gov_support:
+    g69: internal_rate
+    g70: external_rate
+    g71: rate_info
+    g72: kgs1
+    g73: kgs2
+    g74: kgs3
+    g75: kgs4
+    g76: kgs5
+  group_support:
+    g54: PD_int
+    g55: PD_ext
+    g56: kgrs1
+    g57: kgrs2
+    g58: kgrs3
+    g59: kgrs9
+    g60: kgrs4
+    g61: kgrs6
+    g62: kgrs10
+    g63: kgrs7
+    g64: kgrs11
+    g65: kgrs8
+    g66: kgrs5
+  warnings:
+  - g25
+  - g26
+  - g27
+  - g28
+  - g29
+  - g31
+  - g32
+  - g33
+  - g34
+  - g35
+  - g36
+  - g37
+  - g38
+  - g39
+  - g41
+  - g42
+  - g49
+  - g50
+  - g51
+  - g78
+  - g79
+  - g80
+  - g81
+  - g82
+  - g83
+  - g84
+  - g85
+  - g86
+  - g87
+  - g88
+  - g89
+  - g90
+  - g91
+  - g92
+  - g93
+  - g94
+  - g95
+  - g96
+  - g97
+  - g98
+  young_companies:
+  - f1
+  - f2
+  - f3
+  - f4
+  - f5
+model_base:
+  coeffs:
+    intercept: 1.6407205049805647
+    qualitative_logits: 0.8289900781789121
+    quantitative_logits: 0.7548121696606503
+  gini: 64.5
+  target_rate:
+    actual: 0.055
+    predicted: 0.0562
+model_qualitative:
+  coeffs:
+    intercept: -2.8340433690547857
+    kfx0: -0.00589907228378132
+    kfx10: -0.008995901678523053
+    kfx15: -0.007477615105238681
+    kfx20: -0.009272214877725227
+    kfx4: -0.005518187132726783
+  gini: 56.4
+  target_rate:
+    actual: 0.055
+    predicted: 0.0579
+model_quantitative:
+  coeffs:
+    asset_turnover_ratio_woe: -1.0623730238892062
+    current_liabilty_to_assets_woe: -0.5495880541494078
+    debt_coverage_woe: -0.888080556648009
+    debt_ratio_woe: -0.6271606629062512
+    intercept: -2.8680799199312537
+    quick_ratio_woe: -0.5354084342860149
+    revenue_woe: -0.6857781680625352
+  gini: 49.0
+  target_rate:
+    actual: 0.05
+    predicted: 0.0556
+preprocessing_params:
+  C_plus_segments:
+  - C
+  - K
+  - IC
+  - IK
+  - H
+  - K1
+  - K2
+  features_to_drop:
+  - kfx17
+  - kfx24
+  - kfx21
+  observation_period:
+  - '2018-07-01'
+  - '2024-08-01'
+  observation_period_days: 365
+  placeholder_date: '2199-01-01'
+  valid_date_comparison: '2023-07-01'
