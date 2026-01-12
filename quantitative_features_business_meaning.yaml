@@ -1,0 +1,163 @@
+asset_turnover_ratio_woe:
+  business_meaning: "Коэффициент оборачиваемости активов - эффективность использования активов для генерации выручки"
+  business_logic: "positive"
+
+autonomous_ration_woe:
+  business_meaning: "Коэффициент собственного капитала - доля собственного капитала в активах"
+  business_logic: "positive"
+
+cash_ratio_woe:
+  business_meaning: "Коэффициент денежной ликвидности - отношение денежных средств к краткосрочным обязательствам"
+  business_logic: "positive"
+
+cash_to_earn_woe:
+  business_meaning: "Коэффициент наличия средств - отношение денежных средств к выручке"
+  business_logic: "positive"
+
+cfo_to_net_income_woe:
+  business_meaning: "Маржа денежного потока - отношение операционного денежного потока к чистой прибыли"
+  business_logic: "positive"
+
+cost_to_earn_woe:
+  business_meaning: "Эффективность компании в производстве или продаже - отношение себестоимости к выручке"
+  business_logic: "positive"
+
+current_liabilty_to_assets_woe:
+  business_meaning: "Коэффициент текущих обязательств к активам - доля краткосрочных обязательств в активах"
+  business_logic: "negative"
+
+current_ration_woe:
+  business_meaning: "Коэффициент текущей ликвидности - отношение оборотных активов к краткосрочным обязательствам"
+  business_logic: "positive"
+
+debt_coverage_woe:
+  business_meaning: "Коэффициент покрытия долга денежными потоками - отношение операционного денежного потока к общей задолженности"
+  business_logic: "positive"
+
+debt_ratio_woe:
+  business_meaning: "Коэффициент задолженности к активам - отношение общей задолженности к активам"
+  business_logic: "negative"
+
+debt_to_equite_ratio_woe:
+  business_meaning: "Коэффициент задолженности к собственному капиталу"
+  business_logic: "negative"
+
+earn_growth_woe:
+  business_meaning: "Темп роста выручки - отношение текущей выручки к прошлогодней"
+  business_logic: "positive"
+
+earn_woe:
+  business_meaning: "Выручка компании"
+  business_logic: "positive"
+
+financial_stability_woe:
+  business_meaning: "Коэффициент задолженности по отношению к активам - показатель финансовой устойчивости"
+  business_logic: "negative"
+
+financing_ratio_woe:
+  business_meaning: "Коэффициент финансового плеча - отношение общей задолженности к собственному капиталу"
+  business_logic: "negative"
+
+gross_profit_margin_woe:
+  business_meaning: "Коэффициент валовой прибыли - отношение валовой прибыли к выручке"
+  business_logic: "positive"
+
+interest_coverage_ratio_woe:
+  business_meaning: "Коэффициент обслуживания процентов - отношение операционной прибыли к процентным расходам"
+  business_logic: "positive"
+
+liab_coverage_woe:
+  business_meaning: "Коэффициент обеспеченности денежными средствами - отношение операционного денежного потока к обязательствам"
+  business_logic: "positive"
+
+long_term_debt_coefficient_woe:
+  business_meaning: "Коэффициент соотношения долга к собственному капиталу"
+  business_logic: "negative"
+
+net_profit_woe:
+  business_meaning: "Чистая прибыль компании"
+  business_logic: "positive"
+
+net_working_capital_to__assets_woe:
+  business_meaning: "Коэффициент чистого оборотного капитала к активам"
+  business_logic: "positive"
+
+net_working_capital_to__long_tearm_debt_woe:
+  business_meaning: "Коэффициент отношения долгосрочной задолженности к оборотному капиталу"
+  business_logic: "negative"
+
+net_working_capital_to__short_tearm_debt_woe:
+  business_meaning: "Коэффициент покрытия краткосрочных обязательств оборотным капиталом"
+  business_logic: "positive"
+
+net_working_capital_to_total_debt_woe:
+  business_meaning: "Коэффициент оборачиваемости оборотного капитала к общей задолженности"
+  business_logic: "positive"
+
+net_working_capital_woe:
+  business_meaning: "Чистый оборотный капитал - разность между оборотными активами и краткосрочными обязательствами"
+  business_logic: "positive"
+
+operating_cash_flow_woe:
+  business_meaning: "Коэффициент операционной ликвидности - отношение операционного денежного потока к краткосрочным обязательствам"
+  business_logic: "positive"
+
+operating_profit_margin_woe:
+  business_meaning: "Коэффициент операционной прибыли - отношение операционной прибыли к выручке"
+  business_logic: "positive"
+
+pay_to_assets_woe:
+  business_meaning: "Коэффициент отношения кредиторской задолженности к активам"
+  business_logic: "negative"
+
+pay_to_receive_woe:
+  business_meaning: "Коэффициент отношения кредиторской задолженности к дебиторской"
+  business_logic: "negative"
+
+profitability_dynamics_woe:
+  business_meaning: "Динамика прибыльности - изменение рентабельности по сравнению с прошлым периодом"
+  business_logic: "positive"
+
+quick_ratio_woe:
+  business_meaning: "Коэффициент быстрой ликвидности - отношение высоколиквидных активов к краткосрочным обязательствам"
+  business_logic: "positive"
+
+rate_of_return_woe:
+  business_meaning: "Рентабельность продаж - отношение чистой прибыли к выручке"
+  business_logic: "positive"
+
+recievables_to_short_tearm_debt_woe:
+  business_meaning: "Коэффициент отношения дебиторской задолженности к краткосрочной задолженности"
+  business_logic: "positive"
+
+recievables_turnover_woe:
+  business_meaning: "Коэффициент выручки от продаж к дебиторской задолженности - скорость взыскания дебиторской задолженности"
+  business_logic: "positive"
+
+return_on_assets_woe:
+  business_meaning: "Эффективность использования активов - отношение чистой прибыли к активам (ROA)"
+  business_logic: "positive"
+
+return_on_curent_assets_woe:
+  business_meaning: "Рентабельность оборотных активов - отношение чистой прибыли к оборотным активам"
+  business_logic: "positive"
+
+return_on_equity_woe:
+  business_meaning: "Эффективность использования собственных активов - отношение чистой прибыли к собственному капиталу (ROE)"
+  business_logic: "positive"
+
+return_on_investments_woe:
+  business_meaning: "Показатель эффективности компании в использовании ресурсов - отношение чистой прибыли к инвестиционному капиталу"
+  business_logic: "positive"
+
+revenue_woe:
+  business_meaning: "Относительный рост выручки - отношение текущей выручки к прошлогодней"
+  business_logic: "positive"
+
+short_tearm_liquidity_woe:
+  business_meaning: "Коэффициент отношения денежных средств и эквивалентов к краткосрочной задолженности"
+  business_logic: "positive"
+
+total_debt_to_cfo_woe:
+  business_meaning: "Долговая нагрузка - отношение общей задолженности к операционному денежному потоку"
+  business_logic: "negative"
